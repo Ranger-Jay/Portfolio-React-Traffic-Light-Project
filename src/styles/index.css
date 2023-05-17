@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,53 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.center {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wire {
+  height: 90px;
+  width: 15px;
+  background-color: black;
+}
+
+.box {
+  height: 325px;
+  width: 125px;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: rgb(117, 9, 117);
+}
+
+.ambient {
+  box-shadow: 0px 0px 30px 30px palegoldenrod;
+}
